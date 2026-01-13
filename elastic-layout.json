@@ -1,0 +1,138 @@
+{
+  "version": 1.0,
+  "grid_size": 256,
+  "tabs": [
+    {
+      "name": "Tab 1",
+      "grid_layout": {
+        "layouts": [],
+        "containers": [
+          {
+            "title": "Back Wheel Increase",
+            "x": 512.0,
+            "y": 256.0,
+            "width": 256.0,
+            "height": 256.0,
+            "type": "Toggle Button",
+            "properties": {
+              "topic": "/SmartDashboard/Back Wheel Increase",
+              "period": 0.06,
+              "data_type": "boolean"
+            }
+          },
+          {
+            "title": "Back Wheel Decrease",
+            "x": 768.0,
+            "y": 256.0,
+            "width": 256.0,
+            "height": 256.0,
+            "type": "Toggle Button",
+            "properties": {
+              "topic": "/SmartDashboard/Back Wheel Decrease",
+              "period": 0.06,
+              "data_type": "boolean"
+            }
+          },
+          {
+            "title": "Flywheel Increase",
+            "x": 512.0,
+            "y": 0.0,
+            "width": 256.0,
+            "height": 256.0,
+            "type": "Toggle Button",
+            "properties": {
+              "topic": "/SmartDashboard/Flywheel Increase",
+              "period": 0.06,
+              "data_type": "boolean"
+            }
+          },
+          {
+            "title": "Flywheel Decrease",
+            "x": 768.0,
+            "y": 0.0,
+            "width": 256.0,
+            "height": 256.0,
+            "type": "Toggle Button",
+            "properties": {
+              "topic": "/SmartDashboard/Flywheel Decrease",
+              "period": 0.06,
+              "data_type": "boolean"
+            }
+          },
+          {
+            "title": "Back Wheel RPM",
+            "x": 256.0,
+            "y": 256.0,
+            "width": 256.0,
+            "height": 256.0,
+            "type": "Number Bar",
+            "properties": {
+              "topic": "/SmartDashboard/Back Wheel RPM",
+              "period": 0.06,
+              "data_type": "double",
+              "min_value": -6000.0,
+              "max_value": 6000.0,
+              "divisions": 5,
+              "inverted": false,
+              "orientation": "horizontal"
+            }
+          },
+          {
+            "title": "Flywheel RPM",
+            "x": 256.0,
+            "y": 0.0,
+            "width": 256.0,
+            "height": 256.0,
+            "type": "Number Bar",
+            "properties": {
+              "topic": "/SmartDashboard/Flywheel RPM",
+              "period": 0.06,
+              "data_type": "double",
+              "min_value": -6000.0,
+              "max_value": 6000.0,
+              "divisions": 5,
+              "inverted": false,
+              "orientation": "horizontal"
+            }
+          },
+          {
+            "title": "Back Wheel Target RPM",
+            "x": 1024.0,
+            "y": 256.0,
+            "width": 256.0,
+            "height": 256.0,
+            "type": "Number Bar",
+            "properties": {
+              "topic": "/SmartDashboard/Back Wheel Target RPM",
+              "period": 0.06,
+              "data_type": "double",
+              "min_value": -6000.0,
+              "max_value": 6000.0,
+              "divisions": 5,
+              "inverted": false,
+              "orientation": "horizontal"
+            }
+          },
+          {
+            "title": "Flywheel Target RPM",
+            "x": 1024.0,
+            "y": 0.0,
+            "width": 256.0,
+            "height": 256.0,
+            "type": "Number Bar",
+            "properties": {
+              "topic": "/SmartDashboard/Flywheel Target RPM",
+              "period": 0.06,
+              "data_type": "double",
+              "min_value": -6000.0,
+              "max_value": 6000.0,
+              "divisions": 5,
+              "inverted": false,
+              "orientation": "horizontal"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
