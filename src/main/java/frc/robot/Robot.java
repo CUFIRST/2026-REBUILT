@@ -29,7 +29,10 @@ public class Robot extends TimedRobot {
   public void disabledPeriodic() {}
 
   @Override
-  public void disabledExit() {}
+  public void disabledExit() {
+    flywheelMotor.reset();
+    backwheelMotor.reset();
+  }
 
   @Override
   public void autonomousInit() {

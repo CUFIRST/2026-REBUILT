@@ -46,6 +46,12 @@ public class SmartDashMotor extends SubsystemBase {
     SmartDashboard.putNumber(name + " Target RPM", motor.getClosedLoopReference().getValueAsDouble() * 60);
   }
 
+  public void reset() {
+    targetRPM = 0;
+    updateTargetSpeed();
+    motor.stopMotor();
+  }
+
   private void updateTargetSpeed() {
     motor.setControl(new VelocityVoltage(targetRPM / 60));
   }
